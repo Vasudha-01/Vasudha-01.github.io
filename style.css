@@ -44,7 +44,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff6347;
+    color: black;
+    font-weight: bolder
 }
 
 section {
@@ -79,7 +80,7 @@ h2::after {
     left: 0;
     bottom: 0;
     height: 2px;
-    width: 50px;
+    width: 150px;
     background-color: #333;
 }
 
