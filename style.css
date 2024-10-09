@@ -107,6 +107,36 @@ ul li:hover {
 
 /* Specific section styles */
 
+/* Education */
+#education ul li{
+    background-color: #e8f5e9;
+}
+#education ul li:hover{
+    background-color: #c9f2cd;
+}
+
+/* Skills */
+#skills ul li{
+    background-color: #f8eee0;
+}
+#skills ul li:hover{
+    background-color: #f5e3ca;
+}
+#skills ul li img {
+    width: 30px; /* You can adjust this value */
+    height: auto; /* This will keep the aspect ratio */
+    vertical-align: middle; /* To align the images with the text */
+}
+
+/* Projects */
+#projects ul li{
+    background-color: #f5f6e9;
+    font-weight: bold;
+}
+
+#projects ul li:hover {
+    background-color: #f6fac9;
+}
 /* Certificates */
 #certificates ul li {
     background-color: #e0f7fa;
@@ -148,7 +178,7 @@ ul li:hover {
 /* Contact */
 #contact {
     background-color: #e8f5e9;
-    padding: 40px;
+    padding: 30px;
     border: 2px solid #66bb6a;
     border-radius: 10px;
 }
